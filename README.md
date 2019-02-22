@@ -5,7 +5,7 @@ Using Angular 6 to make a Material Front End and displaying Wordpress Data using
 This project is intended to just display a basic page with Information from a local wordpress project.
 
 
-image
+<img align="center" width="960px" height="469" src="https://github.com/Abdilaziz/material-design-wordpress-theme/blob/master/Example_Page.png" />
 
 
 
