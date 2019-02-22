@@ -8,6 +8,8 @@ This project is intended to just display a basic page with Information from a lo
 <img align="center" width="960px" height="469" src="https://github.com/Abdilaziz/material-design-wordpress-theme/blob/master/Example_Page.png" />
 
 
+Data used is from:
+https://github.com/Abdilaziz/php_restAPI
 
 
 
