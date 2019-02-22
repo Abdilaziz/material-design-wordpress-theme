@@ -12,8 +12,19 @@ export class AppComponent {
 
   posts$: Observable<any[]>;
 
+  products: any;
+
   constructor(private wp: WordpressApiService) {
     this.posts$ = this.wp.getPosts();
+
+    this.wp.getProducts().subscribe(
+      (products) => this.products = products["records"]
+    );
   }
+
+
+
+
+
 
 }

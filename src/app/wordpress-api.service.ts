@@ -12,9 +12,13 @@ export class WordpressApiService {
   getPosts(): Observable<any[]> {
     return this.http.get<any[]>('http://localhost/wordpress/wp-json/wp/v2/posts?_embed', {
       params: {
-        per_page: '6'
+        per_page: '2'
       }
     });
+  }
+
+  getProducts(): Observable<any[]> {
+    return this.http.get<any[]>('http://localhost/php_api/api/product/read.php');
   }
   
 }

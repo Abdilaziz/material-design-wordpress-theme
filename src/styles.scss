@@ -1,4 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$primaryColor : #fff176;
+$lightPrimaryColor: #ffffa8;
+$darkPrimaryColor: #cabf45;
+
+$secondaryColor: #eeeeee;
+$lightSecondaryColor: #ffffff;
+$darkSecondaryColor: #bcbcbc;
+
+$textColor : #000000;
+
+
+html, body { 
+    height: 100%; 
+    background-color: $secondaryColor; 
+}
+body { margin: 0;  font-family: Georgia, 'Times New Roman', Times, serif }
